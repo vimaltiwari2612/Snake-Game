@@ -1,0 +1,30 @@
+.board{
+    background:linear-gradient(green,yellow);
+    border: 10px solid black;
+    display: grid;
+    grid-template-rows: repeat(20,1fr);
+    grid-template-columns: repeat(20,1fr);
+    width: 90vmin;
+    height: 92vmin;
+}
+
+.snakeHead{
+    background-image: url("head.png");
+    border-radius: 50%;
+    height:4vh;
+    width:4vh;
+}
+
+.snakeBody{
+    background-image: url("food.png");
+    border-radius: 50%;
+    height:3vh;
+    width:3vh;
+}
+
+.foodBody{
+    background-image: url("food.png");
+    border-radius: 50%;
+    height:3vh;
+    width:3vh;
+}
