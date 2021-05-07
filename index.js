@@ -74,6 +74,7 @@ hasCollisionHappened = () => {
 refreshBoard = () => {
     if(hasCollisionHappened()){
         alert('Game Over! Your score is '+score+'.\nLet\'s Play again.');
+        score = 0;
         currentDirection = {x:0,y:0};
         food = {x : Math.round(a + (b - a) * Math.random()), y: Math.round(a + (b - a) * Math.random())};
         snake = [
