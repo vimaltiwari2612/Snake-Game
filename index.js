@@ -185,3 +185,5 @@ function handleTouchMove(evt) {
     xDown = null;
     yDown = null;                                             
 };
+
+alert("Press any Arrow key/Swipe(Mobile users) to start the game.");
